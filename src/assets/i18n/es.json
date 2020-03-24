@@ -2,5 +2,16 @@
     "menu": {
         "root": "Root",
         "atributos": "Atributos"
+    },
+    "formContacto": {
+        "titulo_inicial": "Contactanos",
+        "titulo": "Formulario de contacto",
+        "nombres": "Nombre",
+        "apellidos": "Apellido",
+        "email": "Email",
+        "asunto": "Asunto",
+        "mensaje": "Mensaje",
+        "place_mensaje": "Deja aqui tu mensaje...",
+        "btn_enviar": "Enviar mensaje"
     }
 }

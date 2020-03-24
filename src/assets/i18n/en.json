@@ -2,5 +2,16 @@
     "menu": {
         "root": "Root",
         "atributos": "Attributes"
+    },
+    "formContacto": {
+        "titulo_inicial": "Contact us",
+        "titulo": "Contact Form",
+        "nombres": "First name",
+        "apellidos": "Last name",
+        "email": "Email",
+        "asunto": "Issue",
+        "mensaje": "Message",
+        "place_mensaje": "Leave your message here...",
+        "btn_enviar": "Send Message"
     }
 }

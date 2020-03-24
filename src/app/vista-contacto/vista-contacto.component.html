@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center">
-                <h2 class="section-title mb-3 text-white">Contactanos</h2>
+                <h2 class="section-title mb-3 text-white">{{'formContacto.titulo_inicial' | translate}}</h2>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -12,15 +12,15 @@
 
                 <form action="#" class="p-5 bg-white">
 
-                    <h2 class="h4 text-black mb-5">Formulario de contacto</h2>
+                    <h2 class="h4 text-black mb-5">{{'formContacto.titulo' | translate}}</h2>
 
                     <div class="row form-group">
                         <div class="col-md-6 mb-3 mb-md-0">
-                            <label class="text-black" for="nombres">Nombres</label>
+                            <label class="text-black" for="nombres">{{'formContacto.nombres' | translate}}</label>
                             <input type="text" id="nombres" class="form-control rounded-0">
                         </div>
                         <div class="col-md-6">
-                            <label class="text-black" for="apellidos">Apellidos</label>
+                            <label class="text-black" for="apellidos">{{'formContacto.apellidos' | translate}}</label>
                             <input type="text" id="apellidos" class="form-control rounded-0">
                         </div>
                     </div>
@@ -28,7 +28,7 @@
                     <div class="row form-group">
 
                         <div class="col-md-12">
-                            <label class="text-black" for="email">Email</label>
+                            <label class="text-black" for="email">{{'formContacto.email' | translate}}</label>
                             <input type="email" id="email" class="form-control rounded-0">
                         </div>
                     </div>
@@ -36,21 +36,21 @@
                     <div class="row form-group">
 
                         <div class="col-md-12">
-                            <label class="text-black" for="asunto">Asunto</label>
+                            <label class="text-black" for="asunto">{{'formContacto.asunto' | translate}}</label>
                             <input type="subject" id="asunto" class="form-control rounded-0">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <label class="text-black" for="mensaje">Mensaje</label>
-                            <textarea name="message" id="mensaje" cols="30" rows="7" class="form-control rounded-0" placeholder="Deja tu mensaje aquí..."></textarea>
+                            <label class="text-black" for="mensaje">{{'formContacto.mensaje' | translate}}</label>
+                            <textarea name="message" id="mensaje" cols="30" rows="7" class="form-control rounded-0" placeholder="{{'formContacto.place_mensaje' | translate}}"></textarea>
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
-                            <input type="submit" value="Enviar mensaje" class="btn btn-primary mr-2 mb-2">
+                            <input type="submit" value="{{'formContacto.btn_enviar' | translate}}" class="btn btn-primary mr-2 mb-2">
                         </div>
                     </div>
 
