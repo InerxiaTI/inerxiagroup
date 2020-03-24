@@ -1,0 +1,66 @@
+<li><a href="#home-section" class="nav-link">{{'menu.root' | translate }}</a></li>
+
+<li><a href="#features-section" class="nav-link">{{'menu.atributos' | translate }}</a></li>
+
+<li class="has-children">
+    <a href="#about-section" class="nav-link">Hacemos</a>
+    <ul class="dropdown arrow-top">
+        <li><a href="#about-section" target="_blank" class="nav-link"><span class="text-primary">Consultoria</span></a></li>
+        <li><a href="#about-section" class="nav-link">Analisis de datos</a></li>
+        <li class="has-children">
+            <a href="#">Software</a>
+            <ul class="dropdown">
+                <li><a href="#">Web Apps</a></li>
+                <li><a href="#">Apps Movil</a></li>
+                <li><a href="#">Desktop apps</a></li>
+                <li><a href="#">RPA</a></li>
+                <li><a href="#">Aplicaciones bajo nivel</a></li>
+            </ul>
+        </li>
+        <li class="has-children">
+            <a href="#">Diseño y multimedia</a>
+            <ul class="dropdown">
+                <li><a href="#">Imagen corporativa</a></li>
+                <li><a href="#">Diseño de video publicitario</a></li>
+            </ul>
+        </li>
+        <li><a href="#our-team-section" class="nav-link">BPO sistemas y telecomunicaciones</a></li>
+
+    </ul>
+</li>
+
+<li><a href="#our-team-section" class="nav-link">Nuestro equipo</a></li>
+
+<li><a href="#testimonials-section" class="nav-link">Comentarios</a></li>
+
+<li><a href="#contact-section" class="nav-link">Contactanos</a></li>
+
+<li class="has-children">
+    <a style="pointer-events: none;
+    cursor: default;" data-role="button" class="nav-link"><span *ngIf="translate.currentLang; else notCurrentLang" >{{translate.currentLang}}</span></a>
+    <ng-template #notCurrentLang>
+        <span>{{translate.defaultLang}}</span>
+    </ng-template>
+
+    <ul class="dropdown arrow-top" #selectedLang>
+        <li *ngFor="let language of translate.getLangs()" [id]="language" (click)="switchLang(language)">
+            <span *ngIf="language === translate.currentLang; then equal else notEqual"></span>
+            <ng-template #equal>
+                <span class="nav-link">
+                    <span class="text-primary">
+                        {{ language }} 
+                    </span>
+                </span>
+            </ng-template>
+            <ng-template #notEqual>
+                <span class="nav-link">
+                    <span>
+                        {{ language }}
+                    </span>
+                </span>
+            </ng-template>
+        </li>
+
+
+    </ul>
+</li>
