@@ -10,18 +10,18 @@
 
 
 
-                <form action="#" class="p-5 bg-white">
+                <form (ngSubmit)="enviarMensaje()" class="p-5 bg-white">
 
                     <h2 class="h4 text-black mb-5">{{'formContacto.titulo' | translate}}</h2>
 
                     <div class="row form-group">
                         <div class="col-md-6 mb-3 mb-md-0">
                             <label class="text-black" for="nombres">{{'formContacto.nombres' | translate}}</label>
-                            <input type="text" id="nombres" class="form-control rounded-0">
+                            <input type="text" id="nombres" class="form-control rounded-0" [(ngModel)]="objContacto.nombre" name="nombre">
                         </div>
                         <div class="col-md-6">
                             <label class="text-black" for="apellidos">{{'formContacto.apellidos' | translate}}</label>
-                            <input type="text" id="apellidos" class="form-control rounded-0">
+                            <input type="text" id="apellidos" class="form-control rounded-0" [(ngModel)]="objContacto.apellido" name="apellido">
                         </div>
                     </div>
 
@@ -29,7 +29,7 @@
 
                         <div class="col-md-12">
                             <label class="text-black" for="email">{{'formContacto.email' | translate}}</label>
-                            <input type="email" id="email" class="form-control rounded-0">
+                            <input type="email" id="email" class="form-control rounded-0" [(ngModel)]="objContacto.email" name="email">
                         </div>
                     </div>
 
@@ -37,14 +37,14 @@
 
                         <div class="col-md-12">
                             <label class="text-black" for="asunto">{{'formContacto.asunto' | translate}}</label>
-                            <input type="subject" id="asunto" class="form-control rounded-0">
+                            <input type="subject" id="asunto" class="form-control rounded-0" [(ngModel)]="objContacto.asunto" name="asunto">
                         </div>
                     </div>
 
                     <div class="row form-group">
                         <div class="col-md-12">
                             <label class="text-black" for="mensaje">{{'formContacto.mensaje' | translate}}</label>
-                            <textarea name="message" id="mensaje" cols="30" rows="7" class="form-control rounded-0" placeholder="{{'formContacto.place_mensaje' | translate}}"></textarea>
+                            <textarea [(ngModel)]="objContacto.mensaje" name="mensaje" id="mensaje" cols="30" rows="7" class="form-control rounded-0" placeholder="{{'formContacto.place_mensaje' | translate}}"></textarea>
                         </div>
                     </div>
 
