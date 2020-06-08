@@ -22,7 +22,7 @@ export class VistaContactoComponent implements OnInit {
     this.translate.use(lang);
   }
 
-  public enviarMensaje(): void{
+  public enviarMensaje(): void {
     console.log('click');
     console.log(this.objContacto);
     this.contactoService.enviarMensaje(this.objContacto).subscribe(
