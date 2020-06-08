@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "inerxia-app": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "inerxia-app"
+    }
+  },
+  "defaultProject": "inerxia-app",
+  "cli": {
+    "analytics": "beb27a7e-affa-4d5a-a43a-91233061ca22"
+  }
 }
