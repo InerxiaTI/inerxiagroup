@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
@@ -35,6 +37,7 @@ export function httpTranslateLoader(http: HttpClient) {
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
