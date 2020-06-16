@@ -17,6 +17,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { MenuLiComponent } from './menu-li/menu-li.component';
+import { VistaServiciosComponent } from './vista-servicios/vista-servicios.component';
 
 export function httpTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -33,7 +34,8 @@ export function httpTranslateLoader(http: HttpClient) {
     VistaComentariosComponent,
     VistaContactoComponent,
     FooterComponent,
-    MenuLiComponent
+    MenuLiComponent,
+    VistaServiciosComponent,
   ],
   imports: [
     BrowserModule,

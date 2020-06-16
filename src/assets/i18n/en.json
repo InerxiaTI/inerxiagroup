@@ -1,7 +1,16 @@
 {
     "menu": {
         "root": "Root",
-        "atributos": "Attributes"
+        "atributos": "Attributes",
+        "hacemos": "We do",
+        "nuestro_equipo": "Our team",
+        "comentarios": "Comments",
+        "consultoria": "Consultancy",
+        "apps_bajo_nivel": "Low level applications",
+        "multimedia": "Design and multimedia",
+        "imagen_corporativa": "Corporate image",
+        "publicidad": "Design and advertising video",
+        "bpo": "BPO systems and telecommunications"
     },
     "formContacto": {
         "titulo_inicial": "Contact us",
@@ -13,5 +22,33 @@
         "mensaje": "Message",
         "place_mensaje": "Leave your message here...",
         "btn_enviar": "Send Message"
+    },
+    "seccionInicial":{
+        "eslogan": "We go beyound your ideas",
+        "eslogan_pequeno": "At inerxia group we manufacture software with the highest quality standards and above all with the latest technologies. (That's just an example)",
+        "boton_eslogan": "Start to explore"
+    },
+    "atributos":{
+        "atributos_1":"We are Inerxia",
+        "atributos_2":"Find out why they prefer us",
+        "atributos_3":"Continuous support",
+        "atributos_4":"Constant comunication",
+        "atributos_5":"Latest technologies",
+        "atributos_6":"Free Updates",
+        "atributos_7":"95% satisfaction",
+        "atributos_8":"We go beyound"
+    },
+    "servicios":{
+        "servicios_1":"Software Development"
+    },
+    "nosotros":{
+        "nosotros_1":"About us",
+        "nosotros_2":"Our Mission"
+    },
+    "testimonios":{
+        "testimonios_1":"Testimonials"
+    },
+    "footer":{
+        "footer_1":"All righ reserved Inerxia TI"
     }
 }
