@@ -1,7 +1,16 @@
 {
     "menu": {
         "root": "Root",
-        "atributos": "Atributos"
+        "atributos": "Atributos",
+        "hacemos": "Hacemos",
+        "nuestro_equipo": "Nuestro equipo",
+        "comentarios": "Comentarios",
+        "consultoria": "Consultoría",
+        "apps_bajo_nivel": "Aplicaciones de bajo nivel",
+        "multimedia": "Diseño y multimedia",
+        "imagen_corporativa": "Imágen corporativa",
+        "publicidad": "Diseño y video publicitario",
+        "bpo": "BPO sistemas y telecomunicaciones"
     },
     "formContacto": {
         "titulo_inicial": "Contactanos",
@@ -13,5 +22,33 @@
         "mensaje": "Mensaje",
         "place_mensaje": "Deja aqui tu mensaje...",
         "btn_enviar": "Enviar mensaje"
+    },
+    "seccionInicial":{
+        "eslogan": "Vamos más allá de tus ideas",
+        "eslogan_pequeno": "En inerxia group fabricamos software con los más altos estandares de calidad y sobre todo con las tecnologías de punta. (Eso solo un ejemplo)",
+        "boton_eslogan": "Empezar a explorar"
+    },
+    "atributos":{
+        "atributos_1":"Somos Inerxia",
+        "atributos_2":"Descubre por qué nos prefieren",
+        "atributos_3":"Soporte Continuo",
+        "atributos_4":"Comunicación constante",
+        "atributos_5":"Últimas tecnologías",
+        "atributos_6":"Actualizaciones gratis",
+        "atributos_7":"Satisfacción en un 95%",
+        "atributos_8":"Vamos más allá"
+    },
+    "servicios":{
+        "servicios_1":"Desarrollo de Software"
+    },
+    "nosotros":{
+        "nosotros_1":"Sobre Nosotros",
+        "nosotros_2":"Nuestra Misión"
+    },
+    "testimonios":{
+        "testimonios_1":"Testimonios"
+    },
+    "footer":{
+        "footer_1":"Todos los derechos reservados Inerxia TI"
     }
 }
